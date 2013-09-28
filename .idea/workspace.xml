@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1530bd9-f041-40af-8e0c-0a677da5cf50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/EmployeeView.js" afterPath="$PROJECT_DIR$/js/EmployeeView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phonegap-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380343668156" ignored="false" />
+    <file path="/main.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380346595235" ignored="false" />
     <file path="/index.html" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380343231794" ignored="false" />
-    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380345402580" ignored="false" />
+    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380345905172" ignored="false" />
     <file path="/config.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380336381155" ignored="false" />
     <file path="/HomeView.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380344157970" ignored="false" />
     <file path="/dummy.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380343233012" ignored="false" />
@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
+            <state line="52" column="65" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.55013925">
               <folding />
             </state>
           </provider>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeView.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmployeeView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="6" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.59749305">
+            <state line="54" column="6" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +95,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="1" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0">
+            <state line="217" column="36" selection-start="4261" selection-end="4261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,13 +148,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/lib/iscroll.js" />
         <option value="$PROJECT_DIR$/js/HomeView.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/EmployeeView.js" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -390,7 +390,11 @@
       <created>1380345405656</created>
       <updated>1380345405656</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Camera API">
+      <created>1380345907649</created>
+      <updated>1380345907649</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -460,7 +464,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contacts API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera API" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -486,6 +490,7 @@
     <MESSAGE value="Routing added" />
     <MESSAGE value="Location API" />
     <MESSAGE value="Contacts API" />
+    <MESSAGE value="Camera API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -530,20 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="1" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="62" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
@@ -560,7 +551,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.59749305">
+        <state line="54" column="6" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="36" selection-start="4261" selection-end="4261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="65" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.55013925">
           <folding />
         </state>
       </provider>
