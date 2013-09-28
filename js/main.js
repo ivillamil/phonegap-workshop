@@ -15,9 +15,20 @@ var app = {
 
     initialize: function() {
         var $this = this;
-        this.store = new WebSqlStore();
+        this.store = new WebSqlStore( function() {
+            $this.renderHomeView();
+        } );
+    },
+
+    renderHomeView: function() {
+        var html =
+                "<div class='header'><h1>Home</h1></div>" +
+                "<div class='search-view'>" +
+                "<input class='search-key' />" +
+                "<ul class='employee-list'></ul>" +
+                "</div>";
+        $('body').html(html);
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
-        $('.employee-list').delegate('a','click',function(e){ $this.showAlert(e.target.innerHTML, 'Alert Message' ) });
     },
 
     showAlert: function (message, title) {
