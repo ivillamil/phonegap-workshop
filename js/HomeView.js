@@ -4,13 +4,11 @@ var HomeView = function(store) {
         var $this = this;
         store.findByName($('.search-key').val(), function(employees){
             $('.employee-list').html(HomeView.liTemplate(employees));
-            
+
             if (self.iscroll) {
-                console.log('Refresh iScroll');
                 self.iscroll.refresh();
             } else {
-                console.log('New iScroll');
-                self.iscroll = new iScroll($($this.el).find('.scroll')[0], {hScrollbar: false, vScrollbar: false });
+                self.iscroll = new iScroll($this.el.find('.scroll')[0], {hScrollbar: false, vScrollbar: false });
             }
 
         });
@@ -24,7 +22,7 @@ var HomeView = function(store) {
     this.render = function() {
         this.el.html(HomeView.template());
         return this;
-    }
+    };
 
     this.initialize();
 }
