@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1530bd9-f041-40af-8e0c-0a677da5cf50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/HomeView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phonegap-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339243875" ignored="false" />
-    <file path="/index.html" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339493042" ignored="false" />
-    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380338383251" ignored="false" />
+    <file path="/index.html" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339730947" ignored="false" />
+    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339583476" ignored="false" />
     <file path="/config.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380336381155" ignored="false" />
     <file path="/HomeView.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339457285" ignored="false" />
     <file path="/dummy.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339494085" ignored="false" />
@@ -64,7 +62,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="28" selection-start="645" selection-end="645" vertical-scroll-proportion="0.46676302">
+            <state line="9" column="66" selection-start="298" selection-end="298" vertical-scroll-proportion="0.22109826">
               <folding />
             </state>
           </provider>
@@ -188,6 +186,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -296,7 +308,11 @@
       <created>1380338386204</created>
       <updated>1380338386204</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HomeView added">
+      <created>1380339586336</created>
+      <updated>1380339586336</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -366,7 +382,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Templating changed to handlebars" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeView added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -384,6 +400,7 @@
     <MESSAGE value="Native alert message added" />
     <MESSAGE value="Change to inline templating" />
     <MESSAGE value="Templating changed to handlebars" />
+    <MESSAGE value="HomeView added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -435,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="645" selection-end="645" vertical-scroll-proportion="0.46676302">
+        <state line="9" column="66" selection-start="298" selection-end="298" vertical-scroll-proportion="0.22109826">
           <folding />
         </state>
       </provider>
