@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1530bd9-f041-40af-8e0c-0a677da5cf50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/HomeView.js" afterPath="$PROJECT_DIR$/js/HomeView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/iscroll.js" afterPath="$PROJECT_DIR$/lib/iscroll.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phonegap-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380341002087" ignored="false" />
-    <file path="/index.html" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380340410112" ignored="false" />
-    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380341074340" ignored="false" />
+    <file path="/index.html" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380342342213" ignored="false" />
+    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380341266340" ignored="false" />
     <file path="/config.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380336381155" ignored="false" />
-    <file path="/HomeView.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380339457285" ignored="false" />
+    <file path="/HomeView.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380342207587" ignored="false" />
     <file path="/dummy.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380340083466" ignored="false" />
     <file path="/styles.css" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380340718356" ignored="false" />
+    <file path="/iscroll.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380341929079" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +54,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeView.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HomeView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/HomeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="69" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="6" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.14206128">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iscroll.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/iscroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +77,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-18.961538">
+            <state line="7" column="49" selection-start="419" selection-end="419" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -78,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="62" selection-start="972" selection-end="972" vertical-scroll-proportion="0.5682451">
+            <state line="24" column="62" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,11 +139,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/HomeView.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/lib/iscroll.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/HomeView.js" />
       </list>
     </option>
   </component>
@@ -180,6 +195,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="phonegap-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +360,11 @@
       <created>1380341077155</created>
       <updated>1380341077155</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Config file modified to compile only for android">
+      <created>1380341269220</created>
+      <updated>1380341269220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -401,7 +434,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding touch event styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config file modified to compile only for android" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -422,6 +455,7 @@
     <MESSAGE value="HomeView added" />
     <MESSAGE value="Little styling added" />
     <MESSAGE value="Adding touch event styling" />
+    <MESSAGE value="Config file modified to compile only for android" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -450,20 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/HomeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="69" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-18.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="147" column="1" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0">
@@ -480,7 +500,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="62" selection-start="972" selection-end="972" vertical-scroll-proportion="0.5682451">
+        <state line="24" column="62" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/iscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="49" selection-start="419" selection-end="419" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/HomeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.14206128">
           <folding />
         </state>
       </provider>
