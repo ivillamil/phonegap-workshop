@@ -10,7 +10,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380343668156" ignored="false" />
     <file path="/index.html" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380343231794" ignored="false" />
-    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380344500419" ignored="false" />
+    <file path="/Dummy.txt" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380344836323" ignored="false" />
     <file path="/config.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380336381155" ignored="false" />
     <file path="/HomeView.js" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380344157970" ignored="false" />
     <file path="/dummy.xml" changelist="a1530bd9-f041-40af-8e0c-0a677da5cf50" time="1380343233012" ignored="false" />
@@ -74,19 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="74" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.533237">
+            <state line="35" column="76" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-14.846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeView.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+            <state line="30" column="6" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.5682451">
               <folding />
             </state>
           </provider>
@@ -382,7 +382,11 @@
       <created>1380344503444</created>
       <updated>1380344503444</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Location API">
+      <created>1380344839037</created>
+      <updated>1380344839037</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -452,7 +456,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routing added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Location API" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -476,6 +480,7 @@
     <MESSAGE value="Config file modified to compile only for android" />
     <MESSAGE value="iScroll added" />
     <MESSAGE value="Routing added" />
+    <MESSAGE value="Location API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -501,13 +506,6 @@
           <folding>
             <marker date="1366727302000" expanded="true" signature="827:856" placeholder="DROP TABLE I..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="1" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,16 +539,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+        <state line="35" column="76" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-14.846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="74" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.533237">
+        <state line="147" column="1" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="6" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.5682451">
           <folding />
         </state>
       </provider>
